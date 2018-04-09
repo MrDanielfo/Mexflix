@@ -1,0 +1,94 @@
+html {
+  background-color: #141414;
+  color: #fff;
+}
+
+input, textarea, select {
+  color: #141414;
+}
+
+table {
+  width: 100%;
+  color: #141414;
+}
+
+table th {
+  padding: .25rem;
+  background-color: #e50914;
+}
+table td {
+  padding: .25rem;
+}
+
+table tr:first-child {
+  background-color: #e50914;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #666;
+}
+
+table tr:nth-child(odd) {
+  background-color: #999;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #e50914;
+}
+
+.menu a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #e50914;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+.button {
+  padding: .5rem 1rem;
+  background-color: #e50914;
+}
+
+.button:hover {
+  opacity: .75;
+}
+
+.add {
+  background-color: #0B0;
+}
+
+.edit {
+  background-color: #0871b2;
+}
+
+.show {
+  background-color: #eae234;
+}
+
+.delete {
+  background-color: #d23641;
+}
+
+.error {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.img-404 {
+  max-width: 200px;
+  height: auto;
+}
+
+.poster {
+  max-width: 200px;
+}
+
+.trailer iframe {
+  width: 560px;
+  max-width: 100%;
+  height: 315px;
+}
